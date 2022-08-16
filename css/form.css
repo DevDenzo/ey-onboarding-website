@@ -1,0 +1,136 @@
+.form{
+    color:  #2e2e38;
+    font-family: 'Roboto', sans-serif;
+    margin: -5px;
+    padding: 50px;
+    background-color:#ffe500;
+}
+
+.form-disabled{
+	padding-top: 0px;
+    padding-left: 10px;
+}
+
+.form li{
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 20px 0 0 0;
+}
+
+.form label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1; /* Firefox */
+}
+
+select:invalid { 
+    color:  #808080;
+}
+
+input[type="date"]:not(:valid)::-webkit-datetime-edit {
+    color:  #808080;
+}
+
+input[type="date"] {
+    font-family:' Arial', sans-serif;
+}
+
+.form .form-input-other{
+	display: none;
+}
+
+.form-input-disabled .field-select, .form-input-disabled input{
+	background-color: rgba(239, 239, 239, 0.3);
+	border-color: rgba(190, 190, 190);
+	color: rgb(84, 84, 84)
+}
+
+.form input[type=text], 
+.form input[type=date],
+.form input[type=datetime],
+.form input[type=number],
+.form input[type=search],
+.form input[type=time],
+.form input[type=url],
+.form input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+
+.form input[type=text]:focus, 
+.form input[type=date]:focus,
+.form input[type=datetime]:focus,
+.form input[type=number]:focus,
+.form input[type=search]:focus,
+.form input[type=time]:focus,
+.form input[type=url]:focus,
+.form input[type=email]:focus,
+.form textarea:focus, 
+.form select:focus{
+	-moz-box-shadow: 0 0 8px #2e2e38;
+	-webkit-box-shadow: 0 0 8px #2e2e38;
+	box-shadow: 0 0 8px #2e2e38;
+	border: 1px solid #2e2e38;
+}
+
+.form .field-long{
+	width: 40%;
+}
+
+.form .field-select{
+	width: 40%;
+}
+
+.form input[type=submit], .form input[type=button]{
+    cursor: pointer;
+	background: #2e2e38;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+
+.form input[type=submit]:hover, .form input[type=button]:hover{
+	background: #2e2e38;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.form .required{
+	color:red;
+}
+
+.error {
+    color: red;
+    display: none;
+    font-size: 12px;
+	font-style: italic;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 975px) {
+    .form .field-long{
+        width: 80%;
+    }
+
+    .form .field-select{
+        width: 80%;
+    }
+}

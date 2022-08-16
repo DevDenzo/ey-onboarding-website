@@ -1,0 +1,76 @@
+.training{
+    font-family: 'Roboto', sans-serif;
+    color:  #2e2e38;
+    background-color:#ffe500;
+    width: 100%;
+    margin-top: -5px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.training-optional{
+    font-family: 'Roboto', sans-serif;
+    color:  #2e2e38;
+    margin-top: 40px;
+    margin-left: 25px;
+    display: none;
+}
+
+.training h1, .training h3, .training-optional h1{
+    padding-bottom: 20px
+}
+
+.training-required{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.training-text{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.course-title{
+    background-color: #fff564;
+    border:#2e2e38 solid 3px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    opacity: 0;
+}
+
+.course-title h3{
+    padding-bottom: 15px;
+}
+
+.course-title p{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.course-title span{
+    color:blue;
+    font-size: 14px;
+}
+
+#rank_data{
+    z-index: -2;
+}
+
+@keyframes courseItemFade {
+    from{
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .course-title{
+        width: 80%;
+    }
+}
