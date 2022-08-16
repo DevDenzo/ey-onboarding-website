@@ -1,0 +1,206 @@
+{
+    "jobRank" : {
+        "Assistant" : {
+            "0":{
+                "name": "Diversity & Inclusion",
+                "description": "We're all different, and our differences can generate various points of view - contributing to creativity and innovation.",
+                "link": "https://www.youtube.com/watch?v=uHYuDDHvU64"
+            },
+            "1":{
+                "name": "Giving & Recieving Feedback",
+                "description": "Giving and recieving feedback is an essential skill to succeed at EY. This training will provide some great coaching tips on how you can get better at both giving and receiving feedback.",
+                "link": "https://www.youtube.com/watch?v=fHpZRBRTx4k"
+            },
+            "2":{
+                "name": "Design Thinking",
+                "description": "Design Thinking is a 5-step process to come up with meaningful ideas that solve real problems.",
+                "link": "https://www.youtube.com/watch?v=_r0VX-aU_T8"
+            }
+        },
+        "Senior" : {
+            "0":{
+                "name": "Diversity & Inclusion",
+                "description": "We're all different, and our differences can generate various points of view - contributing to creativity and innovation.",
+                "link": "https://www.youtube.com/watch?v=uHYuDDHvU64"
+            },
+            "1":{
+                "name": "Giving & Recieving Feedback",
+                "description": "Giving and recieving feedback is an essential skill to succeed at EY. This training will provide some great coaching tips on how you can get better at both giving and receiving feedback.",
+                "link": "https://www.youtube.com/watch?v=fHpZRBRTx4k"
+            },
+            "2":{
+                "name": "Design Thinking",
+                "description": "Design Thinking is a 5-step process to come up with meaningful ideas that solve real problems.",
+                "link": "https://www.youtube.com/watch?v=_r0VX-aU_T8"
+            },
+            "3":{
+                "name": "Mentor Training",
+                "description": "Everybody agrees that mentorship is critical to the success of corporate companies and organizations, yet few discuss what should be done to improve their mentorship process.",
+                "link": "https://www.youtube.com/watch?v=G3q8kEn_nsg"
+            }
+        },
+        "Manager" : {
+            "0":{
+                "name": "Diversity & Inclusion",
+                "description": "We're all different, and our differences can generate various points of view - contributing to creativity and innovation.",
+                "link": "https://www.youtube.com/watch?v=uHYuDDHvU64"
+            },
+            "1":{
+                "name": "Giving & Recieving Feedback",
+                "description": "Giving and recieving feedback is an essential skill to succeed at EY. This training will provide some great coaching tips on how you can get better at both giving and receiving feedback.",
+                "link": "https://www.youtube.com/watch?v=fHpZRBRTx4k"
+            },
+            "2":{
+                "name": "Design Thinking",
+                "description": "Design Thinking is a 5-step process to come up with meaningful ideas that solve real problems.",
+                "link": "https://www.youtube.com/watch?v=_r0VX-aU_T8"
+            },
+            "3":{
+                "name": "Mentor Training",
+                "description": "Everybody agrees that mentorship is critical to the success of corporate companies and organizations, yet few discuss what should be done to improve their mentorship process.",
+                "link": "https://www.youtube.com/watch?v=G3q8kEn_nsg"
+            },
+            "4":{
+                "name": "Management Skills Training",
+                "description": "10 Important Management Skills that every manager should have.",
+                "link": "https://www.youtube.com/watch?v=xHBhFKBLhWs"
+            }
+
+        },
+        "Senior Manager" : {
+            "0":{
+                "name": "Diversity & Inclusion",
+                "description": "We're all different, and our differences can generate various points of view - contributing to creativity and innovation.",
+                "link": "https://www.youtube.com/watch?v=uHYuDDHvU64"
+            },
+            "1":{
+                "name": "Giving & Recieving Feedback",
+                "description": "Giving and recieving feedback is an essential skill to succeed at EY. This training will provide some great coaching tips on how you can get better at both giving and receiving feedback.",
+                "link": "https://www.youtube.com/watch?v=fHpZRBRTx4k"
+            },
+            "2":{
+                "name": "Design Thinking",
+                "description": "Design Thinking is a 5-step process to come up with meaningful ideas that solve real problems.",
+                "link": "https://www.youtube.com/watch?v=_r0VX-aU_T8"
+            },
+            "3":{
+                "name": "Mentor Training",
+                "description": "Everybody agrees that mentorship is critical to the success of corporate companies and organizations, yet few discuss what should be done to improve their mentorship process.",
+                "link": "https://www.youtube.com/watch?v=G3q8kEn_nsg"
+            },
+            "4":{
+                "name": "Management Skills Training",
+                "description": "10 Important Management Skills that every manager should have.",
+                "link": "https://www.youtube.com/watch?v=xHBhFKBLhWs"
+            }
+        },
+        "AssociateOrPartner" : {
+            "0":{
+                "name": "Diversity & Inclusion",
+                "description": "We're all different, and our differences can generate various points of view - contributing to creativity and innovation.",
+                "link": "https://www.youtube.com/watch?v=uHYuDDHvU64"
+            },
+            "1":{
+                "name": "Giving & Recieving Feedback",
+                "description": "Giving and recieving feedback is an essential skill to succeed at EY. This training will provide some great coaching tips on how you can get better at both giving and receiving feedback.",
+                "link": "https://www.youtube.com/watch?v=fHpZRBRTx4k"
+            },
+            "2":{
+                "name": "Design Thinking",
+                "description": "Design Thinking is a 5-step process to come up with meaningful ideas that solve real problems.",
+                "link": "https://www.youtube.com/watch?v=_r0VX-aU_T8"
+            },
+            "3":{
+                "name": "Mentor Training",
+                "description": "Everybody agrees that mentorship is critical to the success of corporate companies and organizations, yet few discuss what should be done to improve their mentorship process.",
+                "link": "https://www.youtube.com/watch?v=G3q8kEn_nsg"
+            },
+            "4":{
+                "name": "Management Skills Training",
+                "description": "10 Important Management Skills that every manager should have.",
+                "link": "https://www.youtube.com/watch?v=xHBhFKBLhWs"
+            },
+            "5":{
+                "name": "Management vs Leadership Talk",
+                "description": "The world-renowned marketing and leadership author Seth Godin talks about the difference between leadership and management, the confusion surrounding them, and why the world needs more leaders.",
+                "link": "https://www.youtube.com/watch?v=qzoIAJYPQwo"
+            }
+        }
+    },
+
+    "jobTitle" : {
+        "Database Administrator" : {
+            "0":{
+                "name": "SQL Course",
+                "description": "In this course, we'll be looking at database management basics and SQL using the MySQL RDBMS.",
+                "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+            },
+            "1":{
+                "name": "Relational vs Non Relational Databases",
+                "description": "There are main types of databases: SQL vs NoSQL. But could you tell the core difference between them?",
+                "link": "https://www.youtube.com/watch?v=iUtQN8LMEp0"
+            }
+        },
+        "Project Manager" : {
+            "0":{
+                "name": "Agile Methodology",
+                "description": "Agile is a collection of values and principles. So what is this Agile Methodology you keep hearing people talk about?",
+                "link": "https://www.youtube.com/watch?v=ZZ_vnqvW4DQ"
+            },
+            "1":{
+                "name": "Technical Project Manager Training",
+                "description": "This video provides an overview of the Technical Project Manager role as well as the training and certifications required to become a Technical Project Manager.",
+                "link": "https://www.youtube.com/watch?v=u-yLmCZTHz8"
+            }
+        },
+        "Software Developer" : {
+            "0":{
+                "name": "Agile Methodology",
+                "description": "Agile is a collection of values and principles. So what is this Agile Methodology you keep hearing people talk about?",
+                "link": "https://www.youtube.com/watch?v=ZZ_vnqvW4DQ"
+            },
+            "1":{
+                "name": "Javascript Tutorial",
+                "description": "Watch this JavaScript tutorial for beginners to learn JavaScript basics in one hour. ",
+                "link": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+            },
+            "2":{
+                "name": "Java Tutorial",
+                "description": "Java tutorial for beginners",
+                "link": "https://www.youtube.com/watch?v=eIrMbAQSU34"
+            }
+        },
+        "Information Security Analyst" : {
+            "0":{
+                "name": "Cyber Security",
+                "description": "In this complete cyber security course you will learn everything you need in order to understand cyber security in depth.",
+                "link": "https://www.youtube.com/watch?v=U_P23SqJaDc"
+            }
+        },
+        "Tech Lead" : {
+            "0":{
+                "name": "Agile Methodology",
+                "description": "Agile is a collection of values and principles. So what is this Agile Methodology you keep hearing people talk about?",
+                "link": "https://www.youtube.com/watch?v=ZZ_vnqvW4DQ"
+            },
+            "1":{
+                "name": "Guide To Managing Technical Teams",
+                "description": "How do you make the step from developer to manager? How do you deal with difficult situations and conversations? What are some of the commonest mistakes that people starting out in team leadership often make?",
+                "link": "https://www.youtube.com/watch?v=jMpCF0Z623s"
+            }
+        },
+        "Scrum Master" : {
+            "0":{
+                "name": "Agile Methodology",
+                "description": "Agile is a collection of values and principles. So what is this Agile Methodology you keep hearing people talk about?",
+                "link": "https://www.youtube.com/watch?v=ZZ_vnqvW4DQ"
+            },
+            "1":{
+                "name": "Scrum Master Training",
+                "description": "In this scrum master full course, join as we take you through some of the most important concepts of the Scrum Methodology.",
+                "link": "https://www.youtube.com/watch?v=SyIN_YMfoQs"
+            }
+        }
+
+    }
+}

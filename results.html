@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/training.css">
+    <title>Training</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="https://www.ey.com/en_gl">
+                <img class="logo" src="img\ey-logo.png">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><h3><a href="https://www.ey.com/en_gl">Home</a></h3></li>
+            <li><h3><a href='index.html'>Onboarding</a></h3></li>
+            <li><h3><a href='https://www.ey.com/en_gl/about-us'>About</a></h3></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="welcome">
+        <img class="welcome-img" src="img\training.jpg?tr=w-1200,h-400">
+        <div class="welcome-overlay">
+            <div class="welcome-text">
+                <h1 id="welcome-name">Welcome To EY</h1>
+                <h4>Please complete the following recommended training</h4>
+            </div>
+            <img class="divider" src="img\page-divider.svg">
+        </div>
+    </div>
+
+    <div class="training">
+        <h1>Required Training</h1>
+        <p class="training-text" id="training-text-rank"></p>
+        <div id="rank_data">
+
+        </div>
+    </div>
+
+    <div id="training-optional" class="training-optional">
+        <h1>Optional Training</h1>
+        <p class="training-text" id="training-text-role"></p>
+        <div id="role_data">
+
+        </div>
+    </div>
+    
+    <div class="training">
+        <h1>Your Information</h1>
+        <ul class="form form-disabled">
+            <li class="form-input">
+                <label for="name" title="This is a required field.">Full Name <span class="required">*</span></label>
+                <input class="field-long" type="text" name="name" id="name" placeholder="Full Name" oninvalid="nameValidation()" disabled>
+                <p class="error" id="name-error">Please enter a valid name</p>
+            </li>
+            <li class="form-input">
+                <label for="email" title="This is a required field.">Email <span class="required">*</span></label>
+                <input class="field-long" type="email" name="email" id="email" placeholder="Email Address" oninvalid="emailValidation()" disabled>
+                <p class="error" id="email-error">Please enter a valid email address</p>
+            </li>
+            <li class="form-input">
+                <label for="employeeNumber" title="This is a required field.">Employee Number <span class="required">*</span></label>
+                <input class="field-long" type="text" name="employeeNumber" id="employeeNumber" min="1000000" max="9999999" step="1" placeholder="Employee Number (E-XXXXXXXXX)" disabled>
+                <p class="error" id="employee-error">Please check the format of your employee number</p>
+            </li>
+            <li class="form-input">
+                <label for="date" title="This is a required field.">Join Date <span class="required">*</span></label>
+                <input class="field-long" type="date" name="date" id="date" min="2019-06-10" disabled>
+                <p class="error" id="date-error">Please enter a valid date</p>
+            </li>
+            <li class="form-input form-input-disabled">
+                <label for="jobRank" title="This is a required field.">Job Rank  <span class="required">*</span></label>
+                <select class="field-select" name="jobRank" id="jobRank" disabled>
+                <option value="" selected disabled hidden>Select Rank</option>
+                <option label="L0 - Assistant" value="Assistant"></option>
+                <option label="L1 - Senior" value="Senior"></option>
+                <option label="L2 - Manager" value="Manager"></option>
+                <option label="L3 - Senior Manager" value="Senior Manager"></option>
+                <option label="L4+ - Associate/Partner" value="AssociateOrPartner"></option>
+                </select>
+                <p class="error" id="rank-error">Please select a rank</p>
+            </li>
+            <li class="form-input form-input-disabled">
+                <label for="jobTitle">Job Role</label>
+                <select class="field-select" name="jobTitle" id="jobTitle" value="Select" disabled>
+                <option class="placeholder" value="" selected disabled hidden>Select Role</option>
+                <option label="Software Developer" value="Software Developer"></option>
+                <option label="Project Manager" value="Project Manager"></option> 
+                <option label="Information Security Analyst" value="Information Security Analyst"></option>
+                <option label="Database Administrator" value="Database Administrator"></option>
+                <option label="Tech Lead" value="Tech Lead"></option>
+                <option label="Scrum Master" value="Scrum Master"></option>
+                <option label="Other" value="Other"></option>
+                </select>
+            </li>
+            <li class="form-input-other" id="otherRoleField">
+                <label for="otherRole">Other</label>
+                <input class="field-long" type="text" name="otherRole" id="otherRole" placeholder="Please specify your role" oninvalid="nameValidation()" disabled>
+            </li>
+        </ul>
+
+        <h3>Provide incorrect information?</h3>
+        <p class="training-text"><a href="index.html">Back to form</a></p>
+        
+    </div>
+    
+
+    <script src="js/nav.js"></script>
+    <script src="js/training.js"></script>
+</body>
+</html>
