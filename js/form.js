@@ -20,7 +20,6 @@ const handleSubmit = () => {
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => console.log("Form successfully submitted"))
-    //   .catch((error) => alert(error));
 };
 
 function validate() {
@@ -49,7 +48,7 @@ function emailValidation() {
     var pattern = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
     var valid = pattern.test(email.value)
 
-    if(valid && fullName.value.trim().length > 0) {
+    if(valid && email.value.trim().length > 0) {
         emailError.style.display = 'none'
     } else{
         email.setCustomValidity(" ") //Removes the standard alert
