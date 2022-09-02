@@ -1,5 +1,3 @@
-
-
 let params = new URLSearchParams(location.search);
 
 nameValue = params.get('name')
