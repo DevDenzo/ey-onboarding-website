@@ -1,6 +1,6 @@
 ## Welcome To My Web Application
 
-To get started, open up index.html and begin interacting
+To get started, clone the repo and open up index.html
 
 To preview the website click here https://bpp-coursework.netlify.app/
 
